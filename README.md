@@ -17,3 +17,8 @@ Vagrant up
 ```bash
     vagrant up
 ```
+
+Logplex Configuration
+=====================
+
+Chef will automatically create a "full access" user for logplex with username `logplex-user` and password `logplex-user` ([see](https://github.com/rstudio/vagrant-logplex/blob/master/data_bags/logplex/users.json))
