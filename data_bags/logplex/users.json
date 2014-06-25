@@ -1,0 +1,12 @@
+{
+  "id": "users",
+  "users": [
+    {
+      "user": "logplex-user",
+      "password": "logplex-user",
+      "api": "full_api",
+      "channel": "any_channel",
+      "action": "create"
+    }
+  ]
+}

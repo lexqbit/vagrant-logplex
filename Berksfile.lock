@@ -3,7 +3,8 @@ DEPENDENCIES
   erlang
   git
   logplex
-    path: cookbooks/logplex
+    git: git@github.com:rstudio/logplex-cookbook.git
+    revision: 45dcb192b02c6771ea65113d2e0592ea9b30a313
   redis
     git: git://github.com/miah/chef-redis.git
     revision: 5b7e8585b23dcef0de3ec6cfbb31ad75fc912d8e

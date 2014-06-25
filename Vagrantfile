@@ -18,6 +18,7 @@ Vagrant.configure("2") do |config|
 
     # run chef-solo
     config.vm.provision :chef_solo do |chef|
+        chef.data_bags_path = "data_bags"
         chef.add_recipe "redis::install"
         chef.add_recipe "logplex"
     end
